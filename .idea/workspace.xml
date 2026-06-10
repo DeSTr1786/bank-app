@@ -4,54 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="337dd297-f63d-4ce1-8234-4579c162776f" name="Changes" comment="Initial commit" />
+    <list default="true" id="506de6f8-ddb5-43de-b45a-3f7c0211e4ce" name="Changes" comment="Create AccountService and UserService">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/OperationConsoleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/OperationConsoleListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/account/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/account/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/user/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="3Eqszvvcwl6NVPQaRSKWkR2I773" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ErNv6IAoEme55UsvIy2PMlM1is" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Application.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="337dd297-f63d-4ce1-8234-4579c162776f" name="Changes" comment="" />
-      <created>1780917701034</created>
+      <changelist id="506de6f8-ddb5-43de-b45a-3f7c0211e4ce" name="Changes" comment="Initial commit" />
+      <created>1780932956985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1780917701034</updated>
+      <updated>1780932956985</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
+    <task id="LOCAL-00001" summary="Create AccountService and UserService">
       <option name="closed" value="true" />
-      <created>1780919540636</created>
+      <created>1780933804689</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1780919540636</updated>
+      <updated>1780933804689</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -64,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Create AccountService and UserService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create AccountService and UserService" />
   </component>
 </project>

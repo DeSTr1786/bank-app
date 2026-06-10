@@ -6,7 +6,6 @@ import java.util.*;
 
 public class UserService {
     private int idCounter;
-
     private final Map<Integer, User> userMap;
     private final Set<String> takenLogins;
     private final AccountService accountService;
@@ -27,7 +26,7 @@ public class UserService {
         takenLogins.add(login);
         idCounter++;
         User newUser = new User(idCounter, login, new ArrayList<>());
-        var newAccount = AccountService.createAccount(newUser);
+        var newAccount = accountService.createAccount(newUser);
         newUser.getAccountList().add(newAccount);
         userMap.put(newUser.getId(), newUser);
         return newUser;
@@ -40,5 +39,9 @@ public class UserService {
 
     public List<User> getAllUsers() {
         return userMap.values().stream().toList();
+    }
+
+    public AccountService getAccountService() {
+        return accountService;
     }
 }

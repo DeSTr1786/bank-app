@@ -14,12 +14,17 @@ public class ApplicationConfiguration {
         return new Scanner(System.in);
     }
     @Bean
-    public OperationConsoleListener operationConsoleListener( Scanner scanner) {
-        return new OperationConsoleListener(scanner);
+    public OperationConsoleListener operationConsoleListener(Scanner scanner, UserService userService, AccountService accountService) {
+
+        return new OperationConsoleListener(scanner, userService, accountService);
     }
     @Bean
     public UserService userService(AccountService accountService) {
         return new UserService(accountService);
 
+    }
+    @Bean
+    public AccountService accountService() {
+        return new AccountService();
     }
 }

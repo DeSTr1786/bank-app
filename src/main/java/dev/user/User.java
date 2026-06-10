@@ -21,6 +21,15 @@ public class User {
 
     private final String login;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", accountList=" + accountList +
+                '}';
+    }
+
     public User(int id, String login, List<Account> accountList) {
         this.id = id;
         this.login = login;
