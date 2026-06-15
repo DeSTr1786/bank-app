@@ -1,6 +1,6 @@
 package dev.operations.processors;
 
-import dev.OperationConsoleListener;
+
 import dev.operations.ConsoleOperationType;
 import dev.operations.OperationCommandProcessor;
 
