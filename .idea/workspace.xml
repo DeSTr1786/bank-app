@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="506de6f8-ddb5-43de-b45a-3f7c0211e4ce" name="Changes" comment="Create AccountService and UserService">
+    <list default="true" id="506de6f8-ddb5-43de-b45a-3f7c0211e4ce" name="Changes" comment="Implementation of user creation, account creation, and user list display functions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/ConsoleOperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/OperationCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/OperationProcessorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/AccountTransferProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/AccountWithdrawProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/CloseAccountProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/CreateAccountProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/CreateUserProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/DepositAccountProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/ExitProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/operations/processors/ShowAllUsersProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resurces/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ApplicationConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/OperationConsoleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/OperationConsoleListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/account/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/account/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/account/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/user/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -70,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780933804689</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementation of user creation, account creation, and user list display functions">
+      <option name="closed" value="true" />
+      <created>1781092047670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781092047670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create AccountService and UserService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create AccountService and UserService" />
+    <MESSAGE value="Implementation of user creation, account creation, and user list display functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of user creation, account creation, and user list display functions" />
   </component>
 </project>

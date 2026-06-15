@@ -7,7 +7,10 @@ public class App {
     public static void main( String[] args )
     {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("dev");
-        context.getBean(OperationConsoleListener.class).listenUpdates();
+        OperationConsoleListener consoleListener = context.getBean(OperationConsoleListener.class);
+        consoleListener.start();
+        consoleListener.listenUpdates();
+        consoleListener.endListen();
     }
 }
 

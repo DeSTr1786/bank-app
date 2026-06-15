@@ -20,7 +20,7 @@ public class UserService {
     public User createUser(String login) {
 
         if (takenLogins.contains(login)) {
-            throw new IllegalArgumentException("Пользователь с логином =%s уже существует."
+            throw new IllegalArgumentException("Пользователь с логином %s уже существует."
                     .formatted(login));
         }
         takenLogins.add(login);
